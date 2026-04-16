@@ -1,48 +1,39 @@
-# 📊 Dashboard de Produção (Power BI)
+# Dashboard de Produção (Power BI)
 
-![Preview do Dashboard](preview.png)
+## Preview
 
----
-
-## 🎯 Objetivo
-
-Criar um painel interativo que permita:
-
-* Monitorar a produção ao longo do tempo
-* Identificar períodos de baixa produtividade
-* Avaliar qualidade e disponibilidade operacional
-* Apoiar decisões com base em dados
+![Dashboard](preview.png)
 
 ---
 
-## 📌 Principais Indicadores (KPIs)
+## Objetivo
 
-* ✅ **Total Aprovado**: Quantidade total de itens aprovados
-* ❌ **Total Rejeitado**: Quantidade total de itens rejeitados
-* ⏱️ **Horas Produtivas**: Tempo efetivamente produtivo
-* 🛑 **Horas Paradas**: Tempo de inatividade
-* 📊 **Disponibilidade (%)**: Percentual de tempo produtivo
-* 🏆 **Qualidade (%)**: Taxa de aprovação
+Desenvolver um dashboard interativo para monitoramento de indicadores produtivos, permitindo identificar variações de desempenho, perdas operacionais e oportunidades de otimização no processo.
 
 ---
 
-## 📈 Visualizações
+## Principais Indicadores (KPIs)
 
-O dashboard contém:
-
-* Gráfico de área: Produção ao longo dos meses
-* Medidores (Gauge):
-
-  * Disponibilidade
-  * Qualidade
-* Filtros interativos:
-
-  * Operador
-  * Mês
+* **Total Aprovado**: Volume total de itens produzidos com sucesso
+* **Total Rejeitado**: Volume de itens com falha ou não conformidade
+* **Horas Produtivas**: Tempo efetivamente utilizado na produção
+* **Horas Paradas**: Tempo de inatividade operacional
+* **Disponibilidade (%)**: Relação entre tempo produtivo e tempo total
+* **Qualidade (%)**: Percentual de itens aprovados sobre o total produzido
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## Visualizações
+
+O dashboard inclui:
+
+* Gráfico de área para análise da evolução da produção ao longo dos meses
+* Medidores (gauge) para acompanhamento de disponibilidade e qualidade
+* Filtros interativos por operador e período (mês)
+
+---
+
+## Tecnologias Utilizadas
 
 * Power BI
 * DAX (Data Analysis Expressions)
@@ -50,7 +41,7 @@ O dashboard contém:
 
 ---
 
-## 📂 Estrutura do Projeto
+## Estrutura do Projeto
 
 ```
 📁 dashboard-producao
@@ -59,39 +50,39 @@ O dashboard contém:
  ┗ 📄 README.md
 ```
 
-## 🚀 Como Utilizar
+---
+
+## Como Utilizar
 
 1. Baixe o arquivo `.pbix`
 2. Abra no Power BI Desktop
 3. Atualize as fontes de dados, se necessário
-4. Explore os filtros e interações
+4. Utilize os filtros para explorar os dados
 
 ---
 
-## 💡 Aprendizados
+## Principais Aprendizados
 
-Durante o desenvolvimento deste projeto, foram aplicados conceitos como:
-
-* Criação de medidas com DAX
-* Tratamento e modelagem de dados
-* Design de dashboards profissionais
-* Uso de filtros e interações
+* Criação de medidas e KPIs utilizando DAX
+* Modelagem e tratamento de dados
+* Construção de dashboards com foco em clareza e usabilidade
+* Aplicação de filtros e interatividade
 
 ---
 
-## 📌 Observações
+## Observações
 
-Este projeto foi desenvolvido como parte de um **intensivo de Power BI**, com foco em prática e construção de portfólio.
-
----
-
-## 👤 Autor
-
-**Roberto Sulkovski**
-[LinkedIn](#)
+Dashboard desenvolvido a partir de dados de produção simulados, com foco na análise de variações mensais e no impacto das paradas operacionais sobre os resultados.
 
 ---
 
-## ⭐ Contribuição
+## Autor
 
-Sinta-se à vontade para explorar, sugerir melhorias ou utilizar como referência!
+Roberto Sulkovski
+www.linkedin.com/in/roberto-sulkovski-roxo
+
+---
+
+## Contribuição
+
+Sugestões e melhorias são bem-vindas.

@@ -59,16 +59,6 @@ O dashboard contém:
  ┗ 📄 README.md
 ```
 
----
-
-## 🖼️ Preview do Dashboard
-
-> Coloque a imagem do dashboard na raiz do projeto com o nome `preview.png`
-
-![Preview do Dashboard](preview.png)
-
----
-
 ## 🚀 Como Utilizar
 
 1. Baixe o arquivo `.pbix`
